@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .lista-animes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; 
+            background-color: brown;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            ; 
+            border-radius: 10px;
+        }
+        .card{
+            width: 200px;
+            margin: 20px;
+            border: 50px solid rgb(0, 0, 0);
+        }
+        .card img{
+            width: 200px;
+            height: 270px;
+            object-fit: cover;
+        }
+
+        .card h2{
+            font-size:14px ;
+        }
+
+        .card h3{
+            font-size:14px ;
+            padding: 10px;
+        }
+
+        .card h4{
+            font-size:14px ;
+            padding: 10px;
+
+        } 
+
+        .card p{
+            font-size: 12px;
+            padding: 10px;
+
+        }
+
+        .card a{
+            display: block;
+            width: 200;
+            background-color: rgb(255, 255, 255);
+            margin: 10px auto;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            text-align: center;
+            border-radius: 7px; 
+            color: orange; 
+            text-decoration: none;
+        }
+    </style>
+     <div class="lista-animes"></div>
+    <script src="anime.js"></script>
+</body>
+</html>
